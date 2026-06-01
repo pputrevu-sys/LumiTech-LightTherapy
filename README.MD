@@ -18,7 +18,7 @@ The async web server keeps the main loop free for responsive physical button han
 - **3 operating modes** — Off → White LED only → White LED + UVB (cycled via button or browser)
 - **3 lux levels** — Low (30%), Medium (65%), High (80%) duty cycle
 - **Physical buttons** — debounced mode and lux controls (GPIO 18, 19)
-- **Async web interface** — served from PROGMEM via `ESPAsyncWebServer`, no SPIFFS required
+- **Async web interface** — served from PROGMEM via `ESPAsyncWebServer`
 - **Real-time state polling** — browser polls `/state` every second to reflect current mode and lux level
 - **Dual platform support** — compiles for both ESP32 and ESP8266 via `#ifdef`
 
