@@ -149,9 +149,3 @@ Install via the Arduino Library Manager or PlatformIO:
 
 - Original repository: [@proscio/LightTherapy](https://github.com/proscio/LightTherapy)
 - This fork maintained by [@pputrevu-sys](https://github.com/pputrevu-sys)
-
----
-
-## License
-
-This project is open source. Refer to the original repository for license details.
